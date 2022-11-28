@@ -1,0 +1,58 @@
+* {
+   /* Size of the box adjustment*/
+    box-sizing: border-box;
+    /*Padding is between the margin and container*/
+    padding: 0;
+     /*margin is between the border and padding*/
+    margin: 0;
+  }
+     /* Here is the container can store the rows and columns values.*/
+  .container {
+    /*Makes it easier to design flexible responsive layout structure without using float or positioning.*/
+    display: flex;
+    /*Gives the background color*/
+    background: #fff;
+    /*Contents are aligned to center*/
+    align-content: center;
+    justify-content: center;
+    /*Gives the direction of the filex box with rows and columns*/
+    flex-direction: column;
+    /*Minimum Width of item*/
+    min-width: 700px;
+    /*max width of item*/
+    min-height: 500px;
+    /*The border radius gives the  rounds the corners of an element's outer border edge.*/
+    border-radius: 5%;
+    margin: auto;
+  }
+  
+  table {
+    /* border-collapse property sets whether table borders should collapse into a single border or be separated as in standard HTML.*/
+    border-collapse: collapse;
+    /*used to create space around elements, outside of any defined borders*/
+    margin: auto;
+  }
+  
+  td {
+    background-color: #666;
+    border: 5px solid white;
+    /*Size of the font to bold larger etc..,*/
+    font-size: 80px;
+    color: #fff;
+    border-radius: 10%;
+  }
+  
+  #player {
+    padding: 1rem;
+
+  }
+  
+  body {
+    display: flex;
+    background: #eee url('https://source.unsplash.com/1600x900/?nature') no-repeat
+      center center/cover;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    /*overflow property specifies whether to clip the content or to add scrollbars when the content of an element is too big to fit in the specified area.*/
+  }
